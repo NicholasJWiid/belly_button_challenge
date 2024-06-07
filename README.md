@@ -28,7 +28,7 @@ The goal of this project is to build an interactive dashboard to explore the [Be
 
 5. Update all the plots when a new sample is selected using the dropdown menu created in step 2. 
 
-6. Deploy your app to GitHub Pages.
+6. Deploy your app to GitHub Pages. [Click here for completed dahsboard](https://nicholasjwiid.github.io/belly_button_challenge/).
 
 ## Tools and languages used
 
