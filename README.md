@@ -3,9 +3,9 @@
 ## Background
 The goal of this assignment is to build an interactive dashboard to explore the [Belly Button Biodiversity dataset](https://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-## Project Steps:
+## Project Steps
 
-1. Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
+1. Use the D3 library in Javascript to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
 
 2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
@@ -30,6 +30,10 @@ The goal of this assignment is to build an interactive dashboard to explore the 
 
 6. Deploy your app to GitHub Pages.
 
+## Tools and languages used
+
+   * Javascript with D3 and Plotly
+   * HTML and CSS
 
 ### References
 Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
