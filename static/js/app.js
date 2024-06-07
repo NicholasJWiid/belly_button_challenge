@@ -53,15 +53,26 @@ function buildCharts(sample) {
       mode: 'markers',
       marker: {
         color: otu_ids[0],
-        size: sample_values[0]
+        size: sample_values[0],
+        colorscale: 'Earth'
       }
     }
     let bubble_data = [trace1]
     let bubble_layout = {
       title: "Bacteria Cultures Per Sample",
       height: 600,
-      width: 1300
-    }
+      width: 1250,
+      xaxis: {
+        title: {
+          text: 'OTU ID'
+          }
+        },
+      yaxis: {
+        title: {
+          text: 'Number of Bacteria',
+          }
+        }
+      }
     // Render the Bubble Chart
     Plotly.newPlot("bubble", bubble_data, bubble_layout)
 

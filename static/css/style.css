@@ -1,0 +1,17 @@
+.card-header {
+    background-color: rgb(200, 221, 237);
+}
+
+.header_box {
+    background-color: rgb(200, 221, 237);
+}
+
+.selectorbox {
+    background-color: rgb(200, 221, 237);
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px; 
+    box-sizing: border-box;
+}
